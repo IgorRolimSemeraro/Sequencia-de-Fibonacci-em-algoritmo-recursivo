@@ -6,7 +6,7 @@ public class Recursivo {
         System.out.println("Sequência de Fibonacci");
         System.out.println("Digite o numero da sequencia que quer descobrir:");
         int n = ler.nextInt();
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i <= n; i++) {
             System.out.print(fibonacci(i) + " ");
         }
     }
